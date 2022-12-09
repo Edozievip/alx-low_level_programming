@@ -2,11 +2,11 @@
 
 /**
 *main - Entry
-*Return: Always 0
+*Return: Always
 */
 
 int main(void)
 {
 	printf("with proper grammer but the outcome is a piece of art,\n");
-	return(o);)
+	return(o);
 }
