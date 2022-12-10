@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
-* main - Entry point
-* Reurn: Always 0 (Success)
+* main - Starting point of evry c program
+* Return: Always 0 (Success)
 */
 
 int main(void)
