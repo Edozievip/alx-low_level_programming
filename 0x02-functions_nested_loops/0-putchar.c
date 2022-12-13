@@ -1,13 +1,10 @@
-#include main.h
+#ifndef MAIN_H
+#define MAIN_H
 
 /**
  * main - a program that prints putchar
  * Return: Always 0 (success)
  */
-int main(void)
-{
-	putchar("_putchar\n");
+int _putchar(char c)
 
-	return (0);
-}
-
+#endif
