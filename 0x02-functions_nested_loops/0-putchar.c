@@ -1,10 +1,17 @@
-#ifndef MAIN_H
-#define MAIN_H
-
+#include main.h
 /**
- * main - a program that prints putchar
+ *print_alphabet - entry point
  * Return: Always 0 (success)
  */
-int _putchar(char c)
+void print_alphabet(void)
+{
+	char c = 'a';
 
-#endif
+	while (c <= 'z')
+	{
+		_putchar(c);
+		c++;
+	}
+	
+	_putchar('\n');
+}
