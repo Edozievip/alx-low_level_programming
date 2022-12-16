@@ -1,8 +1,9 @@
 #include "main.h"
+
 /**
  * print_line - Draw a staight line in the termonL
- * Return: empty
  * @n: the number of lines to draw
+ * Return: empty
  */
 
 void print_lines(int n)
