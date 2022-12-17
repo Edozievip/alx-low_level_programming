@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio>
+#include <stdio.h>
 
 /**
  * main - print 1-100, for multiples of 3 'fizz', 5 'buzz', 5 and 3 'fizzbuzz'
