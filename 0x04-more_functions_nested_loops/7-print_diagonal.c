@@ -3,7 +3,7 @@
 /**
  * print_diagonal - draw a digonal line on the terminal
  * @n: the number of times to print the diagonal
- * Return: 0
+ * Return: empty
  */
 
 void print_diagonal(int n)
@@ -20,7 +20,7 @@ void print_diagonal(int n)
 	{
 	for (y = 0; y < x; y++)
 	{
-		_putchar(32);
+	_putchar(32);
 	}
 	_putchar(92);
 	_putchar('\n');
