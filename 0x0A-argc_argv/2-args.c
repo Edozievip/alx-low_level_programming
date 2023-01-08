@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-/*
+/**
  * main - prints the number comtent
  * @argc: argiement count
  * @argv: arguement vector

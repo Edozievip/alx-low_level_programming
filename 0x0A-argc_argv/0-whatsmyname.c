@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 
-/*
+/**
  * main - prints the number or string
  * @argc: argiement count
  * @argv: arguement vector
