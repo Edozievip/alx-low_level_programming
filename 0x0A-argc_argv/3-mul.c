@@ -1,7 +1,9 @@
 #include "main.h"
 #include <stdio.h>
-/*
- * main - prints the number comtent
+#include <stdlib.h>
+
+/**
+ * main - prints the multiplication of two args
  * @argc: argiement count
  * @argv: arguement vector
  * Return: always 0
