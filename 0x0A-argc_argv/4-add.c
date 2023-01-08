@@ -12,10 +12,8 @@
 
 int main(int argc, char *argv[])
 {
-	int i
-		;
-	umsigned int k, sum = 0;
-
+	int i;
+	unsigned int k, sum = 0;
 	char *e;
 
 	if (argc > 1)
