@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /*
- * main - print the name
+ * main - prints the number or string
  * @argc: argiement count
  * @argv: arguement vector
  * Return: always 0
