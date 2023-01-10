@@ -24,6 +24,7 @@ int _strlen(char *s)
 char *_strcpy(char *dest, char *src)
 {
 	int i = 0;
+
 	while (src[i] != '\0')
 	{
 		dest[i] = src[i];
@@ -41,6 +42,7 @@ char *_strdup(char *str)
 {
 	char *dst;
 	unsigned int size;
+
 	if (str == 0)
 	{
 		return (NULL);
