@@ -4,15 +4,15 @@
 /**
  * struct dog - user defined data type
  * @name: name of the dog
- * @owner: the dog owner
  * @age: the age of the dog
+ * @owner: the dog owner
  */
 
 struct dog
 {
 	char *name;
+	float age;
 	char *owner;
-	int age;
 }
 typedef struct dog dog_t;
 
