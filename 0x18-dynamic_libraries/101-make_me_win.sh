@@ -1,3 +1,3 @@
 #!/bin/bash
-wget -P /tmp https://github.com/Nneka-Edeh/alx-low_level_programming/raw/main/0x18-dynamic_libraries/hacked.so
+wget -P /tmp https://github.com/Edozievip/alx-low_level_programming/raw/main/0x18-dynamic_libraries/hacked.so
 export LD_PRELOAD=/tmp/hacked.so
