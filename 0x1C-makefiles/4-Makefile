@@ -4,16 +4,17 @@ SRC = main.c school.c
 OBJ = $(SRC:.c=.o)
 NAME = school
 RM = rm -f
+CFLAGS = -Wall -Werror -Wextra -pedantic
 
 # Rule all: uses variables to build the holberton executable file
 all: $(OBJ)
-        $(CC) $(OBJ) -o $(NAME)
+        $(CC) $(CFLAGS) $(OBJ) -o $(NAME)
 
 clean:
-	$(RM) *~ $(NAME)
+        $(RM) *~ $(NAME)
 
 oclean:
-	$(RM) $(OBJ)
+        $(RM) $(OBJ)
 
 fclean: clean oclean
 
