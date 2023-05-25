@@ -1,0 +1,3 @@
+# Rule all - build the school executable
+all:
+	gcc main.c school.o -o school
