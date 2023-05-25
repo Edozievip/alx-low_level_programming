@@ -1,0 +1,9 @@
+# Setting variables
+CC = gcc
+SRC = main.c school.c
+OBJ = $(SRC:.c=.o)
+NAME = school
+
+# Rule all: uses variables to build the holberton executable file
+all: 
+	$(CC) $(SRC) -o $(NAME)
